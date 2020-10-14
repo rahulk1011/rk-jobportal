@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(to right, #66ccff 0%, #0099ff 100%);
+  background-size: cover;
+  font-family: "Corbel";
+  font-size: 14px;
+}
+
+table {
+  border-spacing: 0px;
+  background-color: white;
+}
+
+th {
+  background-color: black;
+  color: lavender;
+  padding: 5px 15px;
+  height: 30px;
+  text-align: left;
+  border: 0.1px solid black;
+}
+
+td {
+  background: lavender;
+	color: black;
+	padding: 5px 15px;
+  height: 30px;
+  border: 0.1px solid black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	text-align: center;
+}
+
+label {
+	font-size: medium;
+	font-weight: bold;
+	color: midnightblue; 
+}
+
+.top-bar {
+  position: fixed;
+  margin-left: -16px;
+  top: 0;
+  width: 88%;
+  overflow: hidden;
+  background: linear-gradient(to right, #0099cc 0%, #003366 50%, #0099cc 100%);
+  border-bottom: 3px solid black;
+}
+
+.button {
+  background: linear-gradient(to right, #000000 0%, #cc0000 100%);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px solid black;
+  width: 120px;
+  cursor: pointer;
+  font-family: "Corbel";
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.form-control {
+  width: 75%;
+  padding: 5px 15px;
+  margin: 2px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+select {
+  width: 75%;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #f1f1f1;
+}
+
+p {
+  text-align: center;
+}
